@@ -10,9 +10,9 @@
   </tr>  
 </table>  
 <br>  
-<h1>Link do projeto:</h1>
- 
-https://drive.google.com/drive/folders/1d8thGHD-2p16Pm9SXCERs-vuivXDWYjG?hl=pt-br
+
+## Link para o Projeto
+https://drive.google.com/drive/folders/1d8thGHD-2p16Pm9SXCERs-vuivXDWYjG?usp=sharing
 
 ## Descrição do jogo  
 
@@ -37,7 +37,8 @@ O menu principal do jogo apresenta uma imagem de Gandalf e os anões caminhando 
 <table>  
 <thead>  
   <th>  
-    *Espaço reservado para a imagem do Menu Principal (Gandalf e os anões nas montanhas)*  
+    
+  ![a94e8bae-aaf9-4eb6-8910-abc372ddb33c](https://github.com/user-attachments/assets/19d81329-45bd-47bc-85ce-2f660cbd6473)
   </th>  
 </thead>  
 </table>  
@@ -53,7 +54,8 @@ Quando o jogador completa a fase e vence, o menu de vitória aparece com uma ima
 <table>  
 <thead>  
   <th>  
-    *Espaço reservado para a imagem do Menu de Vitória*  
+    
+  ![f241ac58-c269-44b5-b960-9d95c4265dc5](https://github.com/user-attachments/assets/70bfc3c4-e261-41be-9027-a163a4087105)
   </th>  
 </thead>  
 </table>  
@@ -136,8 +138,6 @@ Script responsável por atualizar e controlar a barra de vida do personagem.
 ### Script do Inimigo  
 Gerencia o comportamento dos esqueletos, incluindo sua movimentação e ataques. 
 
----
-
 ## Elementos Gráficos e Visuais  
 
 ### Cenário (Caverna)  
@@ -146,8 +146,9 @@ O cenário do jogo é ambientado em uma caverna subterrânea, inspirada nas Mina
 
 <table>  
 <thead>  
-  <th>  
-    *Espaço reservado para imagem do cenário da caverna*  
+  <th>
+    
+  ![b37d6e32-9480-498b-b282-684c89b08158](https://github.com/user-attachments/assets/6b27be4f-3922-4185-aaa9-25da289f587a)
   </th>  
 </thead>  
 </table>  
@@ -177,7 +178,8 @@ A barra de vida do personagem aparece na parte superior da tela, representando a
 <table>  
 <thead>  
   <th>  
-    *Espaço reservado para imagem da barra de vida*  
+    
+   ![03cb75de-842f-40ca-8a8e-5d900f8330c0](https://github.com/user-attachments/assets/59759568-c0e6-4eb5-9d9f-bd009f6a9d82)
   </th>  
 </thead>  
 </table>  
@@ -189,7 +191,8 @@ O chão da caverna é composto por rochas e uma textura simples, mas funcional, 
 <table>  
 <thead>  
   <th>  
-    *Espaço reservado para imagem do chão*  
+    
+   ![17cf6990-7a36-4985-b16a-7db9a1fc744a](https://github.com/user-attachments/assets/af10de67-2ece-4c0b-b3ed-6d16a6b11b8c)
   </th>  
 </thead>  
 </table>  
@@ -206,7 +209,14 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 <table>  
 <thead>  
   <th>  
-    *Espaço reservado para vídeo da gameplay*  
+    
+[Jogo vitória](https://github.com/user-attachments/assets/f8fddacf-e83b-4d51-a4a9-e4141c16e0c6)
+
+
+
+[Jogo derrota](https://github.com/user-attachments/assets/36d158e6-e719-4e58-8800-b98589393b79)
+
+
   </th>  
 </thead>  
 </table>  
@@ -216,9 +226,7 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 ### Músicas utilizadas:
 
 [Música jogo](https://www.youtube.com/watch?v=tkLVbp0IH_E)
+
 [Menu principal](https://youtu.be/BjEYqqjw5fM?si=w2tUWpTmk_4N_lIB)
+
 [Música vitória](https://youtu.be/dXcwGZV5Or4?si=P6MkQdf4agqFJsfz)
-
-
-
-
