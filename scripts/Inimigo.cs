@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Inimigo : MonoBehaviour
 {
-    public int classe; //Define se o inimigo ser· melee ou arqueiro baseado no numero
+    public int classe; //Define se o inimigo ser√° melee ou arqueiro baseado no numero
     [SerializeField]private GameObject projetil;
     public float distanciaProjetil = 0f;
     public int quantProjeteis = 0; //Delay do tiro do arqueiro
@@ -35,7 +35,7 @@ public class Inimigo : MonoBehaviour
         
         if (jogador.personage.vida > 0)
         {
-            float distancia = jogador.transform.position.x - transform.position.x; // Se O jogador estiver na frente do inimigo, mude a rotaÁ„o do sprite
+            float distancia = jogador.transform.position.x - transform.position.x; // Se O jogador estiver na frente do inimigo, mude a rota√ß√£o do sprite
             if (distancia > 0f)
             {
                 estaDireita = true;
@@ -54,7 +54,7 @@ public class Inimigo : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, new Vector2(jogador.transform.position.x, transform.position.y), 5f * Time.deltaTime);
             }
         }
-        //Se o inimigo for arqueiro e n„o atirou ainda, mudar o sprite e atire o projÈtil
+        //Se o inimigo for arqueiro e n√£o atirou ainda, mudar o sprite e atire o proj√©til
         if (quantProjeteis == 0 && classe == 2)
         {
             spriteRenderer.sprite = spriteArcher;
@@ -82,7 +82,7 @@ public class Inimigo : MonoBehaviour
 
     void girarSprite()
     {
-        //Muda a escala X do sprite para trocar dependendo da direÁ„o
+        //Muda a escala X do sprite para trocar dependendo da dire√ß√£o
         if (estaDireita == false)
         {
             estaDireita = !estaDireita;
