@@ -117,6 +117,9 @@ Controla as características dos projéteis, incluindo:
 </thead>  
 </table>  
 
+![Diagrama](https://github.com/user-attachments/assets/feafd6db-6a70-4fbb-a9c5-4f83469b86fc)
+
+
 ## Outros Scripts  
 
 ### Script do Chefe (Balrog)  
