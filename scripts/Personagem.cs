@@ -20,6 +20,6 @@ public class Personagem
     }
     public void PerderVida(int ataque)
     {
-        vida -= ataque; //Reduz a vida presente na variável vida
+        vida -= ataque; //Reduz a vida presente na variÃ¡vel vida
     }
 }
