@@ -15,7 +15,7 @@ public class BalrogMagiaScript : MonoBehaviour
     public void Defendido()
     {
         Destroy(this.gameObject);
-        Debug.Log("Projétil defendido");
+        Debug.Log("ProjÃ©til defendido");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
