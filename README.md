@@ -210,14 +210,9 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 <thead>  
   <th>  
     
-[Jogo vitória](https://github.com/user-attachments/assets/f8fddacf-e83b-4d51-a4a9-e4141c16e0c6)
+[Gameplay](./SenhorDosAneis.mp4)
 
-
-
-[Jogo derrota](https://github.com/user-attachments/assets/36d158e6-e719-4e58-8800-b98589393b79)
-
-
-  </th>  
+</th>  
 </thead>  
 </table>  
 
