@@ -1,4 +1,3 @@
-
 # Senhor dos Anéis: "You Shall Not Pass" - Documentação  
 
 <br>  
@@ -210,7 +209,11 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 <thead>  
   <th>  
     
-[Gameplay](./SenhorDosAneis.mp4)
+
+
+
+[Gameplay](https://github.com/user-attachments/assets/d3db5cc6-e715-4a40-8125-c9159edc3ffd)
+
 
 </th>  
 </thead>  
