@@ -17,8 +17,8 @@ public class Jogador : MonoBehaviour
     public bool estaDireita = true;
     public int quantInstancia = 0;
 
-    [SerializeField]private LayerMask chaoLayer; //Pega a layer do ch„o 
-    [SerializeField]private Transform checarChao; //Checa se o Jogador est· no ch„o para pular
+    [SerializeField]private LayerMask chaoLayer; //Pega a layer do ch√£o 
+    [SerializeField]private Transform checarChao; //Checa se o Jogador est√° no ch√£o para pular
 
     //Magia de escudo
     public float delayEscudo = 0;
@@ -32,7 +32,7 @@ public class Jogador : MonoBehaviour
     public GameObject balrog;
     public void Awake()
     {
-        //Define atributos b·sicos como velocidade e o valor da barra de vida
+        //Define atributos b√°sicos como velocidade e o valor da barra de vida
         velocidadee = 10f;
         velocidadeePulo = 10f;
         personage.velocidade = velocidadee;
@@ -50,8 +50,8 @@ public class Jogador : MonoBehaviour
         PlayerMorrer();
         GirarPersonagem();
 
-        horizontal = Input.GetAxisRaw("Horizontal"); //Detecta se o eixo X est· recebendo algum input, sendo A, D, Seta Esquerda ou Direita
-        if (Input.GetButtonDown("Jump") && estaNoChao()) //Se o jogador estiver no ch„o, adicionar velociade vertical
+        horizontal = Input.GetAxisRaw("Horizontal"); //Detecta se o eixo X est√° recebendo algum input, sendo A, D, Seta Esquerda ou Direita
+        if (Input.GetButtonDown("Jump") && estaNoChao()) //Se o jogador estiver no ch√£o, adicionar velociade vertical
         {
             rb.velocity = new Vector2(rb.velocity.x, velocidadeePulo);
         }
@@ -59,14 +59,14 @@ public class Jogador : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * velocidadee, rb.velocity.y); //Adiciona velocidade horizontal, feito no FixedUpdate pois È independente de fps
+        rb.velocity = new Vector2(horizontal * velocidadee, rb.velocity.y); //Adiciona velocidade horizontal, feito no FixedUpdate pois √© independente de fps
     }
 
     public void Atacar()
     {
         if (Input.GetButtonDown("Fire1") && quantInstancia == 0)
         {
-            projetilPosicao = new Vector2(this.transform.position.x , this.transform.position.y); //Instancia o projetil um pouco a frente do jogador para n„o puxar
+            projetilPosicao = new Vector2(this.transform.position.x , this.transform.position.y); //Instancia o projetil um pouco a frente do jogador para n√£o puxar
             if (estaDireita == true)
             {
                 projetilPosicao.x += 2f;
@@ -83,11 +83,11 @@ public class Jogador : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire2") && delayEscudo <= 0) 
         {
-            //Verifica todos os Collider2D presentes no OverlapCircleAll na layer ProjÈteis, que recebe os valores da posiÁ„o e tamanho do escudo
+            //Verifica todos os Collider2D presentes no OverlapCircleAll na layer Proj√©teis, que recebe os valores da posi√ß√£o e tamanho do escudo
             Collider2D[] projeteisRefletir = Physics2D.OverlapCircleAll(escudoPos.position, tamanhoEscudo, projeteis);
 
             magiaEscudoSprite.SetActive(true);
-            //A cada projÈtil presente nele, chame a funÁ„o "Defendido" do projÈtil, reseta o delay do escudo, mostra o sprite e toca um som
+            //A cada proj√©til presente nele, chame a fun√ß√£o "Defendido" do proj√©til, reseta o delay do escudo, mostra o sprite e toca um som
             for (int i = 0; i < projeteisRefletir.Length; i++)
             {
                 if (balrog.activeSelf == false && personage.vida >= 1)
@@ -105,7 +105,7 @@ public class Jogador : MonoBehaviour
         }
         else
         {
-            delayEscudo -= Time.deltaTime; //Para n„o aumentar infinitamente o delay do escudo
+            delayEscudo -= Time.deltaTime; //Para n√£o aumentar infinitamente o delay do escudo
             magiaEscudoSprite.SetActive(false); //Desativa o escudo novamente
         }
     }
@@ -143,15 +143,15 @@ public class Jogador : MonoBehaviour
     {
         if (estaDireita == true && horizontal < 0f || !estaDireita && horizontal > 0f)
         {
-            estaDireita = !estaDireita; //Jogador muda de direÁ„o
+            estaDireita = !estaDireita; //Jogador muda de dire√ß√£o
             Vector3 localScale = transform.localScale; 
             localScale.x *= -1f;
-            transform.localScale = localScale; //Multiplica a escala X por -1, assim mudando a rotaÁ„o do sprite
+            transform.localScale = localScale; //Multiplica a escala X por -1, assim mudando a rota√ß√£o do sprite
         }
     }
 
     public bool estaNoChao()
-    {//Cria uma ·rea de cÌrculo de tamanho 0.3f, retornar· verdadeiro caso o checarChao encontre algo presente no circulo que est· na layer Ch„o
+    {//Cria uma √°rea de c√≠rculo de tamanho 0.3f, retornar√° verdadeiro caso o checarChao encontre algo presente no circulo que est√° na layer Ch√£o
         return Physics2D.OverlapCircle(checarChao.position, 0.3f, chaoLayer); 
     }
 }
