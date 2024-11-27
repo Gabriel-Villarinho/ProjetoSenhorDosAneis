@@ -35,7 +35,7 @@ public class GerenciadorJogo : MonoBehaviour
         //Hordas de Inimigos
         GameObject[] inimigosArray = GameObject.FindGameObjectsWithTag("Inimigo");
         inimigos = inimigosArray.ToList();
-        //Converte uma Array imutável para uma lista mutável, assim conseguindo atualizar o valor da barra de HP dependendo do numero de inimigos
+        //Converte uma Array imutÃ¡vel para uma lista mutÃ¡vel, assim conseguindo atualizar o valor da barra de HP dependendo do numero de inimigos
         barraDeVida.VidaMaxina(inimigos.Count);
 
         hordas = 4;
@@ -102,7 +102,7 @@ public class GerenciadorJogo : MonoBehaviour
         barraDeVida.SetarVida(inimigos.Count);
         if (hordas > 1 && inimigos.Count == 0)
         {
-            //Spawna os inimigos da horda em posições aleatórias
+            //Spawna os inimigos da horda em posiÃ§Ãµes aleatÃ³rias
             hordas--;
             Instantiate(inimigoGameObject, new Vector2(UnityEngine.Random.Range(limiteXNegativo, limiteXPositivo), transform.position.y), transform.rotation);
             Instantiate(inimigoGameObject, new Vector2(UnityEngine.Random.Range(limiteXNegativo, limiteXPositivo), transform.position.y), transform.rotation);
