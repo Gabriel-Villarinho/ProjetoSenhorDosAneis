@@ -22,7 +22,7 @@ public class bossScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Entrada do chefe, congela rotações
+        //Entrada do chefe, congela rotaÃ§Ãµes
         if (transform.position.y <= 3.6f)
         {
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
