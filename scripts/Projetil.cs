@@ -22,7 +22,7 @@ public class Projetil
     {
         if (collision.gameObject.layer == 0)
         {
-            CausarDano(danoProjetil); // Chama o método CausaDano
+            CausarDano(danoProjetil); // Chama o mÃ©todo CausaDano
         }
     }
 }
