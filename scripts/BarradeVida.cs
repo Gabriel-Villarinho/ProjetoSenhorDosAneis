@@ -8,8 +8,8 @@ using Unity.VisualScripting;
 public class BarradeVida : MonoBehaviour
 {
     public Slider slider; // O preenchimento da barra de vida
-    public TextMeshProUGUI nomeChefe; // O nome que aparecer· debaixo da barra de vida
-    public void VidaMaxina(int vida) // Define a vida m·xima
+    public TextMeshProUGUI nomeChefe; // O nome que aparecer√° debaixo da barra de vida
+    public void VidaMaxina(int vida) // Define a vida m√°xima
     {
         slider.maxValue = vida; 
         slider.value = vida;
