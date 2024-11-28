@@ -310,6 +310,10 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 </thead>  
 </table>  
 
+<h1>Divisão de tarefas</h1>
+<p>O Igor Michelini ficou mais com a parte da programação do jogo, fazendo os scripts mais complexos e ajudando com ideias para a arte</p>
+<p>O Gabriel Lima ficou com a parte artistica, ajudou com os scripts mais básicos e criou o roteiro da cena</p>
+
 > ## Referências
 
 ### Músicas utilizadas:
