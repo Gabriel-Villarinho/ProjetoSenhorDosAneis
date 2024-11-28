@@ -13,6 +13,12 @@
 ## Link para o Projeto
 https://drive.google.com/drive/folders/1d8thGHD-2p16Pm9SXCERs-vuivXDWYjG?usp=sharing
 
+<h1>Proposta da cena</h1>
+<p>Os heróis se encontram preso nas Minas de Moria com um dragão os perseguindo, após algum tempo de perseguição o dragão os alcança e cria um barreira de fogo para bloquear o caminho deles, porém apenas Gandalf fica preso e fala para os outros continuarem porque ele já os alcançava. Antes do dragão Gandalf precisará enfrentar alguns esqueletos que surgiram das minas.
+Após uma luta difícil Gandalf derrota o dragão e vai atrás de seus amigos, chegando na ponte que eles atravessaram ele viu que eles estavam os o esperando, porém quando Gandalf chega no meio da ponte o dragão ressurge e o ataca, ele defende e com uma magia destrói a ponte, fazendo o dragão cair no abismo, mas enquanto caía o dragão consegue puxar Gandalf com sua calda fazendo ele cair junto do dragão</p>
+<h2>Personagens envolvidos</h2>
+<p>Gandalf sendo o protagonista/jogador e Balrog adaptado para ser um dragão</p>
+
 ## Descrição do jogo  
 
 <p>O jogo se passa na famosa cena "You Shall Not Pass", onde Gandalf enfrenta inimigos e o chefe final, Balrog, em uma batalha épica na ponte. O jogador utiliza magias de ataque e defesa para superar os desafios enquanto enfrenta ondas de esqueletos e o Balrog. A jogabilidade combina ação e estratégia, exigindo habilidade para atacar e se defender no momento certo.</p>  
