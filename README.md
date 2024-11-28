@@ -5,6 +5,7 @@
   <tr>  
     <td>  
       <p>Projeto desenvolvido por Igor Michelini e Gabriel Lima. Este jogo recria a cena de *Senhor dos Anéis* onde Gandalf enfrenta o Balrog na ponte de Khazad-dûm. O objetivo é trazer mecânicas inspiradas na magia e na ação da cena original.</p>  
+      <p>Agradecimentos ao Daniel Carvalho que ajudou nas artes do jogo</p>
     </td>  
   </tr>  
 </table>  
