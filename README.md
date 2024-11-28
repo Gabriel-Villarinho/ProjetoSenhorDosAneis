@@ -95,7 +95,7 @@ Gerencia os atributos do personagem, incluindo:
 <table>  
 <thead>  
   <th>  
-    *Print da classe Personagem será inserido aqui*  
+    [Personagem]<img src="Imagens/scriptPersonagem.png"> 
   </th>  
 </thead>  
 </table>  
@@ -112,21 +112,27 @@ Controla as características dos projéteis, incluindo:
 <table>  
 <thead>  
   <th>  
-    *Print da classe Projétil será inserido aqui*  
+      [Projetil]<img src="Imagens/scriptProjetil.png">
   </th>  
 </thead>  
 </table>  
 
-![Diagrama](https://github.com/user-attachments/assets/feafd6db-6a70-4fbb-a9c5-4f83469b86fc)
+![Diagrama](https://github.com/user-attachments/assets/22677ba2-f895-4695-bfef-50c3adb9fa1a)
 
 
 ## Outros Scripts  
 
 ### Script do Chefe (Balrog)  
 Controla o comportamento e os ataques do Balrog, incluindo os projéteis e a movimentação durante o combate.  
+<img src="Imagens/Boss1.png">
 
 ### Gerenciador do Jogo  
 Script responsável pela transição de cenas, gerenciamento de pontuação e controle do fluxo do jogo.  
+<img src="Imagens/scriptGerenciadorJogo1.png">
+<img src="Imagens/scriptGerenciadorJogo2.png">
+<img src="Imagens/scriptGerenciadorJogo3.png">
+<img src="Imagens/scriptGerenciadorJogo4.png">
+<img src="Imagens/scriptGerenciadorJogo5.png">
 
 ### Projétil Inimigo  
 Controla a trajetória e o comportamento dos projéteis disparados pelos esqueletos.  
