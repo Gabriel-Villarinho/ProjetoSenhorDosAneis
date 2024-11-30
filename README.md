@@ -141,6 +141,19 @@ Quando o jogador completa a fase e vence, o menu de vitória aparece com uma ima
 
 ## Programação  
 
+## Análise técnica de desenvolvimento
+
+**Câmera seguir o personagem**: Feito utilizando o pacote Cinemachine oficial da Unity.
+
+**Magias e projéteis**: Feitos instanciando prefabs e os movendo com scripts próprios.
+
+**SIstema de Parry**: Criando uma Layer para projéteis e utilizando Physics2D.OverlapCircleAll.
+
+**Inimigos melee seguindo o jogador**: Feito utilizando o comando Vector2.MoveTowards().
+
+**Animações**: Todas animações foram separadas em spritesheets, utilizando a função Sprite Editor da Unity, foi possivel cortar cada frame da animação. 
+Depois, utilizamos o menu Animation e movemos os frames de animação, assim criando as animações do Jogo.
+
 ### Classes Criadas  
 
 #### **Personagem**  
