@@ -308,6 +308,7 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 
 
 ## Gameplay do jogo (vídeo)
+<p>Clique para assistir o vídeo</p>
 
 <table>  
 <thead>  
