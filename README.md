@@ -316,7 +316,7 @@ A paleta de cores do jogo foi escolhida para manter a sensação de um ambiente 
 
 
 
-[Gameplay](https://github.com/user-attachments/assets/d3db5cc6-e715-4a40-8125-c9159edc3ffd)
+[![Gameplay](https://github.com/user-attachments/assets/19d81329-45bd-47bc-85ce-2f660cbd6473)](https://github.com/user-attachments/assets/d3db5cc6-e715-4a40-8125-c9159edc3ffd)
 
 
 </th>  
